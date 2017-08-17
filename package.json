@@ -1,0 +1,33 @@
+{
+  "author": "SWAT <swat@weareswat.com>",
+  "name": "sync-jira-github",
+  "description": "Sync jira's stories/sprints to github's milestones/issues",
+  "version": "0.1.1",
+  "homepage": "https://github.com/weareswat/jira-github-issue-sync",
+  "preferGlobal": "true",
+  "main" : "./sync.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weareswat/jira-github-issue-sync.git"
+  },
+
+  "dependencies": {
+    "underscore": "1.4.2",
+    "request": "2.14.x",
+    "utf8": "1.0.0",
+    "async": "0.2.6",
+    "github": "0.1.x",
+    "jira": "0.2.x"
+  },
+
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+
+  "bin": {
+    "sync-jira-github": "./bin/sync-jira-github"
+  }
+
+}
